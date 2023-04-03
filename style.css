@@ -8,3 +8,13 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(0, 132, 255);
+    height: 60px;
+}
