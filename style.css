@@ -59,7 +59,7 @@ header .container{
     display: none;
 }
 
-        /* versione tablet */
+        /* versione tablet e mobile */
         @media screen and (max-width:768px) {
             #menu-mobile{
                 display: block;
@@ -69,4 +69,7 @@ header .container{
                 display: none;
             }
         }
+
+
+        
 
