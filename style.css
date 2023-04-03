@@ -10,11 +10,63 @@ body{
 }
 
 .container{
-    width: 90%;
+    width: 60%;
     margin: auto;
 }
 
+
+
+/* regole header */
 header{
     background-color: rgb(0, 132, 255);
+    color: white;
+    height: 60px;
+    font-size: 15px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
 }
+
+#logo{
+    width: 70px;
+}
+
+.container > #logo > img{
+    max-width: 100%;
+}
+
+#menu-desktop{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botton{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 20px;
+} 
+
+#menu-mobile{
+    display: none;
+}
+
+        /* versione tablet */
+        @media screen and (max-width:768px) {
+            #menu-mobile{
+                display: block;
+            }
+
+            #menu-desktop{
+                display: none;
+            }
+        }
+
