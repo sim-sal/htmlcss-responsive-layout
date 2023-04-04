@@ -93,7 +93,7 @@ header .container{
 }
 
 .card-1 > div > p{
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 5%;
     margin-bottom: 10%;
 }
@@ -130,6 +130,7 @@ header .container{
 }
 
 .small > div{
+    width: 95%;
     margin-top: 10%;
 }
 
@@ -138,7 +139,7 @@ header .container{
 }
 
 .small > div > p{
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .small > div > i{
@@ -153,9 +154,56 @@ header .container{
     justify-content: space-between;
 }
 
+/********** versione tablet **********/
 
+@media screen and (max-width:768px){
+    .developer-up{
+     height: 350px;
+    }
+ 
+    .developer-up > .big , .small{
+     height: 100%;
+    }
+ 
+    .big{
+     flex-direction: column;
+    }
+ 
+    .big > div{
+     width: 100%;
+     }
+ 
+    .big > img{
+     display: block;    
+     max-width: 47.3%;
+     margin-left: 8%;
+    }
+}
 
+/********** versione mobile **********/
+@media screen and (max-width:480px){
 
+    .developer-up , .developer-down{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .developer-up{
+        margin-bottom: 60%;
+    }
+
+    .big{
+        margin-bottom: 5%;
+    }
+
+    .small{
+        width: 66%;
+        margin-bottom: 5%;
+    }
+
+    
+}
         
         
 
