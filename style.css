@@ -379,3 +379,66 @@ header .container{
         width: 60%;
     }
 }
+
+/* regole benefits */
+.benefits{
+    background-color: rgb(150, 145, 227);
+}
+
+.benefits > .container{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.benefits > .container > h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.benefits-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.benefits-cards > div{
+    background-color: white;
+    width: 32%;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.benefits-cards > div > h1{
+    color: rgb(150, 145, 227);
+    font-size: 50px;
+}
+
+.benefits-cards > div > h3{
+    color: rgb(150, 145, 227);
+}
+
+.benefits-cards > div > p{
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+.botton-2{
+    background-color: rgb(150, 145, 227);
+    color: white;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+} 
+
+.botton-2 > span{
+    font-size: 13px;
+    font-weight: bolder;
+}
