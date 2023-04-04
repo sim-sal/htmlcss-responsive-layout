@@ -157,6 +157,10 @@ header .container{
 /********** versione tablet **********/
 
 @media screen and (max-width:768px){
+    .container{
+        width: 90%;
+    }
+
     .developer-up{
      height: 350px;
     }
@@ -190,15 +194,16 @@ header .container{
     }
 
     .developer-up{
-        margin-bottom: 60%;
+        margin-bottom: 65%;
     }
 
     .big{
         margin-bottom: 5%;
+        width: 80%;
     }
 
     .small{
-        width: 66%;
+        width: 80%;
         margin-bottom: 5%;
     }
 
@@ -264,6 +269,21 @@ header .container{
     max-width: 13%;
     border-radius: 25px;
     padding: 10px;
-    
 }
+
+/********** versione tablet e mobile **********/
+
+@media screen and (max-width:768px){
+    .planning > .container{
+        display: block;
+        width: 80%;
+    }
+
+    .planning > .container > div{
+        width: 100%;
+    }
+}
+
+
+
 
