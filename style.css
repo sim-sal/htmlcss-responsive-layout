@@ -202,8 +202,68 @@ header .container{
         margin-bottom: 5%;
     }
 
+}
+
+/* section planning */
+.planning{
+    margin-top: 5%;
+    background-color: rgb(150, 145, 227);
+}
+
+.planning > .container{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.planning > .container > div{
+    color:white;
+    width: 46%;
+}
+
+.planning > .container > div > img{
+    max-width: 100%;
+    padding-bottom: 30%;
+}
+
+.planning > .container > div > p{
+    font-size: 12px;
+    padding-top: 10%;
+}
+
+.card-2{
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.card-2 > div{
+    color: black;
+    width: 70%;
+    margin: auto;
+}
+
+
+.card-2 > div > img{
+    max-width: 90%;
+    padding-top: 5%;
+}
+
+.card-2 > div > p{
+    font-size: 13px;
+    font-style: italic;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.arrow-down{
+    background-color: rgb(150, 145, 227);
+    max-width: 13%;
+    border-radius: 25px;
+    padding: 10px;
     
 }
-        
-        
 
