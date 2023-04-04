@@ -285,5 +285,56 @@ header .container{
 }
 
 
+/* section testimonials */
+.testimonials > .container{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
 
+.testimonials > .container > div{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials > .container > div > h1{
+    color: rgb(150, 145, 227);
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-3{
+    background-color: rgb(150, 145, 227);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 230px;
+}
+
+.card-3 > div > p , h4{
+    color: white;
+}
+
+.card-3 > div > h4{
+    margin-top: 20px;
+}
+
+.card-3 > .photo{
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.photo img{
+    width: 60%;
+    height: 150px;
+    border-radius:999em;
+}
+
+.info-photo{
+    width: 65%;
+    text-align: left;
+}
 
