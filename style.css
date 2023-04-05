@@ -405,10 +405,14 @@ header .container{
 
 .benefits-cards > div{
     background-color: white;
-    width: 32%;
+    max-width: 31.5%;
     border-radius: 20px;
     padding: 20px;
-    
+    margin-bottom: 20px;
+}
+
+.benefits-cards > .cards-responsive{
+    display: none;
 }
 
 .benefits-cards > div > h1{
@@ -441,4 +445,30 @@ header .container{
 .botton-2 > span{
     font-size: 13px;
     font-weight: bolder;
+}
+
+/********** versione tablet **********/
+@media screen and (max-width:768px) {
+    .benefits-cards{
+        flex-wrap: wrap;
+    }
+    
+    .benefits-cards > div{
+        max-width: 48%;
+    }
+
+    .benefits-cards > .cards-responsive{
+        display: inline-block;
+    }
+
+    .not-responsive{
+        display: none;
+    }
+}
+
+/********** versione mobile **********/
+@media screen and (max-width:480px){
+    .benefits-cards > div{
+        max-width: 100%;
+    }
 }
